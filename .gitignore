@@ -1,2 +1,5 @@
 .env
 main.py.backup*
+__pycache__/
+fastapi-env/
+*.pyc
