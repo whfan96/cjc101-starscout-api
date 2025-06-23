@@ -2,9 +2,7 @@ import os
 from dotenv import load_dotenv
 import boto3
 
-# 指定 .env 路徑，確保讀到正確檔案
-dotenv_path = os.path.join(os.path.dirname(__file__), ".env")
-load_dotenv(dotenv_path)
+load_dotenv()
 
 
 AWS_ACCESS_KEY = os.getenv("AWS_ACCESS_KEY_ID")
